@@ -12,7 +12,10 @@ File Encoding         : 65001
 
 Date: 2017-07-24 12:57:06
 */
-
+set character set utf8;
+drop database if exists jeeweb;
+CREATE DATABASE jeeweb DEFAULT CHARACTER SET utf8;
+USE jeeweb;
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
